@@ -1,0 +1,5 @@
+{ "wait": 2.0, "alarm": { "source": { "id": "$source" }, "type": "TestAlarm", "text": "I am an alarm", "severity": "MINOR", "status": "ACTIVE", "time": "$time" } }
+{ "wait": 5.0, "alarm": { "source": { "id": "$source" }, "type": "TestAlarm2", "text": "I am an alarm 2", "severity": "MINOR", "status": "ACTIVE", "time": "$time" } }
+{ "wait": 7.0, "alarm": { "source": { "id": "$source" }, "type": "TestAlarm", "status": "ACKNOWLEDGED" } }
+{ "wait": 2.0, "alarm": { "source": { "id": "$source" }, "type": "TestAlarm", "status": "CLEARED" } }
+{ "wait": 10.0, "alarm": { "source": { "id": "$source" }, "type": "TestAlarm2", "status": "CLEARED" } }

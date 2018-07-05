@@ -1,0 +1,6 @@
+{ "wait": 0.0, "measurement": { "c8y_Temperature": { "T": { "value": 10.0, "unit": "C" } }, "type": "c8y_Temperature", "source": { "id": "$source" }, "time": "$time" } }
+{ "wait": 4.0, "measurement": { "c8y_Pressure": { "P": { "value": 60.2, "unit": "psi" } }, "type": "c8y_Pressure", "source": { "id": "$source" }, "time": "$time" } }
+{ "wait": 0.0, "measurement": { "c8y_Temperature": { "T": { "value": 20.0, "unit": "C" } }, "type": "c8y_Temperature", "source": { "id": "$source" }, "time": "$time" } }
+{ "wait": 2.0, "measurement": { "c8y_Pressure": { "P": { "value": 80.9, "unit": "psi" } }, "type": "c8y_Pressure", "source": { "id": "$source" }, "time": "$time" } }
+{ "wait": 0.0, "measurement": { "c8y_Temperature": { "T": { "value": 5.0, "unit": "C" } }, "type": "c8y_Temperature", "source": { "id": "$source" }, "time": "$time" } }
+{ "wait": 3.0, "measurement": { "c8y_Pressure": { "P": { "value": 43.0, "unit": "psi" } }, "type": "c8y_Pressure", "source": { "id": "$source" }, "time": "$time" } }

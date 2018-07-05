@@ -1,0 +1,2 @@
+{ "wait": 10.0, "event": { "source": { "id":"$source" }, "type": "TestEvent", "text": "sensor was triggered", "time": "$time" } }
+{ "wait": 10.0, "event": { "source": { "id":"$source" }, "type": "TestEvent2", "text": "sensor 2 was triggered", "time": "$time" } }

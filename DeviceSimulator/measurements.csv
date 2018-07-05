@@ -1,8 +1,8 @@
 c8y_Temperature,T,12.0,C,0
 c8y_Preassure,P,60.0,psi,0.2
 c8y_Temperature,T,27.3,C,0
-c8y_Preassure,P,50.0,psi,0.3
+c8y_Prassure,P,50.0,psi,0.3
 c8y_Temperature,T,2.7,C,0
-c8y_Preassure,P,10.0,psi,0.1
+c8y_Prassure,P,10.0,psi,0.1
 c8y_Temperature,T,38.1,C,0
-c8y_Preassure,P,48.0,psi,0.5
+c8y_Prassure,P,48.0,psi,0.5
