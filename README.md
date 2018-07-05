@@ -12,11 +12,11 @@ The simulator reads a file named `measurements.csv` (if available). The file mus
 
 `MeasurementType,MeasurementFragment,Value,Unit,TimeToWait`
 
-`MeasurementType`=Type of the measurement (string)
-`MeasurementFragment`=Fragment of the measurement (string)
-`Value`=Value of the measurement (float)
-`Unit`=Unit of the measurement (string)
-`TimeToWait`=Amount of time (in seconds) to wait after reading the line (float)
+- `MeasurementType`=Type of the measurement (string)
+- `MeasurementFragment`=Fragment of the measurement (string)
+- `Value`=Value of the measurement (float)
+- `Unit`=Unit of the measurement (string)
+- `TimeToWait`=Amount of time (in seconds) to wait after reading the line (float)
 
 __Example:__
 `c8y_Temperature,T,12.0,C,0`
@@ -27,9 +27,9 @@ The simulator reads a file named `events.csv` (if available). The file must have
 
 `EventType,EventText,TimeToWait`
 
-`EventType`=Type of the event (string)
-`EventText`=Description of the event (string)
-`TimeToWait`=Amount of time (in seconds) to wait after reading the line (float)
+- `EventType`=Type of the event (string)
+- `EventText`=Description of the event (string)
+- `TimeToWait`=Amount of time (in seconds) to wait after reading the line (float)
 
 __Example:__
 `TestEvent,Sensor was triggered,10`
@@ -40,11 +40,11 @@ The simulator reads a file named `alarms.csv` (if available). The file must have
 
 `AlarmType,AlarmText,AlarmSeverity,AlarmStatus,TimeToWait`
 
-`AlarmType`=Type of the alarm (string)
-`AlarmText`=Description of the alarm (string)
-`AlarmSeverity`=Severity of the alarm (WARNING, MINOR, MAJOR, CRITICAL)
-`AlarmStatus`=Severity of the alarm (ACTIVE, ACKNOWLEDGED, CLEARED)
-`TimeToWait`=Amount of time (in seconds) to wait after reading the line (float)
+- `AlarmType`=Type of the alarm (string)
+- `AlarmText`=Description of the alarm (string)
+- `AlarmSeverity`=Severity of the alarm (WARNING, MINOR, MAJOR, CRITICAL)
+- `AlarmStatus`=Severity of the alarm (ACTIVE, ACKNOWLEDGED, CLEARED)
+- `TimeToWait`=Amount of time (in seconds) to wait after reading the line (float)
 
 __Example:__
 `TestAlarm,I am an alarm 1,MINOR,ACTIVE,2`
