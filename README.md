@@ -119,6 +119,9 @@ __Example:__
 { "wait": 2.0, "alarm": { "source": { "id": "$source" }, "type": "TestAlarm", "text": "I am an alarm", "severity": "MINOR", "status": "ACTIVE", "time": "$time" } }
 ```
 
+__Note:__
+You can update the status of an alarm by providing the same AlarmType and the new status.
+
 ## How to run the script locally
 
 To run the script locally you need to have python 3 installed
