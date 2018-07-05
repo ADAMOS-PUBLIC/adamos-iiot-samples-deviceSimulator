@@ -1,0 +1,5 @@
+TestAlarm,I am an alarm 1,MINOR,ACTIVE,2
+TestAlarm2,I am an alarm 2,MINOR,ACTIVE,5
+TestAlarm,,,ACKNOWLEDGED,7
+TestAlarm,,,CLEARED,2
+TestAlarm2,,,CLEARED,10
