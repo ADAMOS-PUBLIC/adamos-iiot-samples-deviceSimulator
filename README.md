@@ -56,10 +56,10 @@ You can update the status of an alarm by providing the same AlarmType and the ne
 
 To run the script locally you need to have python 3 installed
 Additionally you need to set the following environment parameters:
-`C8Y_BASEURL`=URL of your ADAMOS tenant (e.g. http://<tenant>.adamos-dev.com)
-`C8Y_TENANT`=Name of your ADAMOS tenant
-`C8Y_USER`=User in your ADAMOS tenant that has permissions to create devices, create measurements, create events, create alarms, read alarms, update alarms
-`C8Y_PASSWORD`=Password of your ADAMOS user
+- `C8Y_BASEURL`=URL of your ADAMOS tenant (e.g. http://<tenant>.adamos-dev.com)
+- `C8Y_TENANT`=Name of your ADAMOS tenant
+- `C8Y_USER`=User in your ADAMOS tenant that has permissions to create devices, create measurements, create events, create alarms, read alarms, update alarms
+- `C8Y_PASSWORD`=Password of your ADAMOS user
 
 Now you can simply run the script on the console: `python3 simulator.py`
 
