@@ -2,7 +2,7 @@
 
 This is an ADAMOS device simulator written in Python. It simulates measurements, events and alarms defined in a CSV file. You can run the script either locally or upload it as a Docker container to the ADAMOS platform.
 
-# Table of Contens
+# Table of Contents
 - [Device Simulator](#device-simulator)
   - [Defining simulation values](#defining-simulation-values)
     - [Measurements CSV file](#measurements-csv-file)
