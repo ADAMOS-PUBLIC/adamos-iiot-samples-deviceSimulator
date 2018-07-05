@@ -77,7 +77,7 @@ To run the docker image locally you need a UNIX based operating system.
 Open a new console.
 Run: `docker run --rm -e C8Y_BASEURL=http://<tenant>.<host>.com -e C8Y_TENANT=<tenant> -e C8Y_USER=<username> -e C8Y_PASSWORD=<password> simulator`
 
-__Note:__ Replace <tenant>, <host>, <username> and <password> with the correct values.
+__Note:__ Replace `tenant`, `host`, `username` and `password` with the correct values.
 
 ## How to upload the image to the ADAMOS platform
 
