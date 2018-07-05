@@ -120,7 +120,7 @@ __Example:__
 ```
 
 __Note:__
-You can update the status of an alarm by providing the same AlarmType and the new status.
+You can update the status of an alarm by providing the same alarm `type` and the new status.
 
 ## How to run the script locally
 
