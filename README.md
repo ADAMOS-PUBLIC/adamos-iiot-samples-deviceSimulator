@@ -3,15 +3,14 @@
 This is an ADAMOS device simulator written in Python. It simulates measurements, events and alarms defined in a CSV file. You can run the script either locally or upload it as a Docker container to the ADAMOS platform.
 
 # Table of Contents
-- [Device Simulator](#device-simulator)
-  - [Defining simulation values](#defining-simulation-values)
-    - [Measurements CSV file](#measurements-csv-file)
-    - [Events CSV file](#events-csv-file)
-    - [Alarms CSV file](#alarms-csv-file)
-  - [How to run the script locally](#how-to-run-the-script-locally)
-  - [How to build the docker image](#how-to-build-the-docker-image)
-  - [How to run the docker image locally](#how-to-run-the-docker-image-locally)
-  - [How to upload the image to the ADAMOS platform](#how-to-upload-the-image-to-the-adamos-platform)
+- [Defining simulation values](#defining-simulation-values)
+  - [Measurements CSV file](#measurements-csv-file)
+  - [Events CSV file](#events-csv-file)
+  - [Alarms CSV file](#alarms-csv-file)
+- [How to run the script locally](#how-to-run-the-script-locally)
+- [How to build the docker image](#how-to-build-the-docker-image)
+- [How to run the docker image locally](#how-to-run-the-docker-image-locally)
+- [How to upload the image to the ADAMOS platform](#how-to-upload-the-image-to-the-adamos-platform)
 
 
 ## Defining simulation values
