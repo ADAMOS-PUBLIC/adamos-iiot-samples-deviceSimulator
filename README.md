@@ -79,12 +79,6 @@ Run: `docker run --rm -e C8Y_BASEURL=http://<tenant>.<host>.com -e C8Y_TENANT=<t
 
 __Note:__ Replace <tenant>, <host>, <username> and <password> with the correct values.
 
-1. Install docker on your local computer from https://www.docker.com/community-edition#/download
-1. Clone the repository to your local computer `git clone <URL> <targetFolder>``
-1. Run `docker build` from the targetFolder
-1. Run `docker save > image.tar` to export the image
-1. create a zip-file containing `image.tar` and `cumulocity.json`
-
 ## How to upload the image to the ADAMOS platform
 
 Open a new console.
